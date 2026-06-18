@@ -1,0 +1,24 @@
+[project]
+name = "clinical-trial-matcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "langchain-core>=1.4.7",
+    "langchain-groq>=1.1.3",
+    "langgraph>=1.2.5",
+    "openmed>=1.5.5",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.1",
+    "pymongo>=4.17.0",
+    "python-dotenv>=1.2.2",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.0",
+]
